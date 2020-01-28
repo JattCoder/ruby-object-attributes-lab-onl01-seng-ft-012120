@@ -18,4 +18,3 @@ fido.instance_variable_get(:@name)
 fido.instance_variable_set(:@name,"Fido")
 fido.name
 snoopy = Dog.new
-
