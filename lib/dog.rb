@@ -18,3 +18,7 @@ fido.instance_variable_get(:@name)
 fido.instance_variable_set(:@name,"Fido")
 fido.name
 snoopy = Dog.new
+snoopy.breed = "Beagle"
+snoopy.instance_variable_get(:@breed)
+snoopy.instance_variable_set(:@breed,"Beagle")
+snoopy.breed
